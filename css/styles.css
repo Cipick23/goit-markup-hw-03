@@ -7,6 +7,12 @@
     --flex-shrink: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
 }
@@ -37,6 +43,12 @@ ul {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    width: 145px;
+    height: 31px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 215px;
+    padding-right: 1240px;
 }
 
 .global-header > nav {
@@ -47,10 +59,23 @@ ul {
 
 .studio-link{
     color: #2196F3;
+    width: 42px;
+    height: 16px;
+    padding: 32px, 1105px, 32px, 545px;
 }
 
+.portofolio {
+    width: 58px;
+    height: 16px;
+    padding: 32px, 997px, 32px, 453px;
+}
 
-.black-link {
+.contacts {
+    width: 59px;
+    height: 16px;
+}
+
+.link {
     color: #212121;
 }
 
@@ -61,6 +86,15 @@ ul {
     font-weight: var(--font-weight);
     line-height: normal;
     letter-spacing: 0.28px;
+    width: 135px;
+    height: 16px;
+    padding: 32px, 368px, 32px, 1097px;
+}
+
+.phone-section {
+    width: 113px;
+    height: 16px;
+    padding: 32px, 215px, 32px, 1272px;;
 }
 
 .global-header > a,
@@ -74,6 +108,26 @@ ul {
     letter-spacing: 0.28px;
 }
 
+.global-header {
+    
+}
+
+.main-info {
+    
+}
+
+.logo-section {
+    
+}
+
+.title-image {
+    
+}
+
+.footer-section {
+    
+}
+
 .button-service{
     cursor: pointer;
 }
@@ -82,7 +136,7 @@ ul {
     color: #FFF;
     text-align: center;
     font-size: 44px;
-    font-style: var(--font-style);
+    font-style: 1;
     font-weight: 900;
     line-height: 1.3;
     letter-spacing: 2.64px;
