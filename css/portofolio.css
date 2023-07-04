@@ -1,0 +1,171 @@
+:root{
+    --test-font-family: 'Raleway';
+    --heading-font-family: 'Raleway';
+    --font-family: 'Roboto';
+    --font-style: 'normal';
+    --font-weight: 400;
+    --flex-shrink: 0;
+}
+
+.body-font{
+    font-family: var(--font-family);
+    color: #ffffff;
+}
+
+.header-section > h1 {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: var(--heading-font-family);
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header-section > nav > ul > li > a:hover,
+.header-section > nav > ul > li > a:focus{
+    color: #af1e88;
+}
+
+.header-section a:hover,
+.header-section a:focus{
+    color: #af1e88;
+}
+
+.black-section{
+    color: #212121;
+}
+
+.portofolio-link{
+    color: #2196F3;
+}
+
+.contacts{
+    color: #757575;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.header-section{
+}
+
+.main-section > section > ul > li > a{
+    cursor: pointer;
+}
+
+.botton-white{
+    
+}
+
+.all-button{
+    text-align: center;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.6;
+    letter-spacing: 0.48px;
+    color: #ffffff;
+    width: 64px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.web-button{
+    width: 120px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.6;
+    letter-spacing: 0.48px;
+}
+
+.app-button{
+    width: 83px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.design-button{
+    width: 96px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.marketing-button{
+    width: 121px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.name-section{
+    color: #212121;
+    font-size: 18px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.category-section{
+    color: #757575;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.8;
+    letter-spacing: 0.48px;
+    }
+
+.footer-section{
+    background: #2F303A;
+}
+
+.footer-section > h2 {
+    color: #2196F3;
+    font-size: 26px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-section > address > p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.42px;
+    display: flex;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: var(--flex-shrink);
+}
+
+.footer-section > address > a {
+    color: #ffffff99;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.42px;
+    display: flex;
+    width: 231px;
+    flex-direction: column;
+    flex-shrink: var(--flex-shrink);
+}
+
+.footer-section > address a:hover,
+.footer-section > address a:focus{
+    color: #af1e88;
+}

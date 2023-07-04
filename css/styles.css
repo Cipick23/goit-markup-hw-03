@@ -1,0 +1,190 @@
+:root {
+    --test-font-family: 'Raleway';
+    --heading-font-family: 'Raleway';
+    --font-family: 'Roboto';
+    --font-style: 'normal';
+    --font-weight: 400;
+    --flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.body-font{
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+
+.global-header > nav > ul > li > a:hover,
+.global-header > nav > ul > li > a:focus{
+    color: #af1e88;
+}
+
+.global-header a:hover,
+.global-header a:focus{
+    color: #af1e88;
+}
+
+.global-header {
+    background: #FFF;
+}
+
+.global-header > h1 {
+    color: #2196F3;
+    font-size: 26px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.global-header > nav {
+    width: 1600px;
+    height: 80px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.studio-link{
+    color: #2196F3;
+}
+
+
+.black-link {
+    color: #212121;
+}
+
+.global-header > a > .email-link {
+    color: #2196F3;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.global-header > a,
+.footer-section > address > a,
+.email-footer {
+    color: #757575;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.button-service{
+    cursor: pointer;
+}
+
+.logo-section > h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-style: var(--font-style);
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.logo-section {
+    background: #2F303A;
+}
+
+.logo-section > button {
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.info-section > ul > li > h6 {
+    color: #212121;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.info-section > ul > li > p {
+    color: #757575;
+    font-size: 14px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+}
+
+.info-section > h2 {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.title-image > h2 {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.title-image > ul > li > span{
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.title-image > ul > li > em {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.footer-section {
+    background: #2F303A;
+}
+
+.footer-section > h2 {
+    color: #2196F3;
+    font-size: 26px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-section > address > p {
+   color: #FFFFFF;
+}
+
+.footer-section > address > a,
+.email-footer  {
+    display: flex;
+    width: 231px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: var(--flex-shrink);
+}
+
+.footer-section > address > a:hover,
+.footer-section > address > a:focus{
+    color: #af1e88;
+}
