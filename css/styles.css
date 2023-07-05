@@ -21,8 +21,8 @@ ul {
     font-family: 'Roboto';
     /* color: #fff; */
     /* pentru a vedea marginea */
-    margin: 8px 12px;
-    border: tomato;
+    margin: 10px 12px;
+    border: #121111;
 }
 
 .global-header > nav > ul > li > a:hover,
