@@ -25,27 +25,23 @@ ul {
     border: #121111;
 }
 
-.global-header > nav > ul > li > a:hover,
-.global-header > nav > ul > li > a:focus{
-    color: #af1e88;
-}
-
-
-
-
-.global-header > nav > h1 > span {
+.global-header > nav > h1 {
     color: #2196F3;
     font-size: 26px;
-    font-style: var(--font-style);
+    font-family: var(--heading-font-family);
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    padding: 24px 1240px 25px 215px;
 }
 
-.global-header > nav > h1 > span,
-.content-section > li > a {
-    display: inline;
+.content-section {
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .studio-link {
@@ -55,48 +51,32 @@ ul {
     padding: 32px 1105px 32px 453px;
 }
 
-.portofolio link {
+.portofolio-link {
+    color: #212121;
     width: 58px;
     height: 16px;
     padding: 32px 997px 32px 545px;
 }
 
-.contacts {
+.contacts-link {
+    color: #212121;
     width: 59px;
     height: 16px;
     padding: 32px 888px 32px 653px;
 }
 
-.link {
-    color: #212121;
-}
-
 .email-link {
     color: #2196F3;
-    font-size: 14px;
-    font-style: var(--font-style);
-    font-weight: var(--font-weight);
-    line-height: normal;
-    letter-spacing: 0.28px;
     width: 135px;
     height: 16px;
+    padding: 32px 368px 32px 1097px;
 }
 
 .phone-section {
+    color: #757575;
     width: 113px;
     height: 16px;
-    padding: 32px, 215px, 32px, 1272px;
-    color: #757575;
-}
-
-.global-header > a,
-.footer-section > address > a,
-.email-footer {
-    font-size: 14px;
-    font-style: var(--font-style);
-    font-weight: var(--font-weight);
-    line-height: normal;
-    letter-spacing: 0.28px;
+    padding: 32px 215px 32px 1272px;
 }
 
 .global-header {
@@ -106,20 +86,20 @@ ul {
     flex-shrink: var(--flex-shrink);
 }
 
-.content-section {
-   
+.studio-link:hover,
+.portofolio-link:hover,
+.contacts-link:hover,
+.email-link:hover,
+.phone-section:hover{
+    color: #af1e88;
 }
 
-.main-info {
-    
-}
-
-.logo-section {
-    
-}
-
-.title-image {
-    
+.studio-link:focus,
+.portofolio-link:focus,
+.contacts-link:focus,
+.email-link:focus,
+.phone-section:focus{
+    color: #af1e88;
 }
 
 .button-service{
@@ -208,15 +188,6 @@ ul {
 
 .footer-section {
     background: #2F303A;
-}
-
-.footer-section > h2 {
-    color: #2196F3;
-    font-size: 26px;
-    font-style: var(--font-style);
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
 }
 
 .footer-section > address > p {
