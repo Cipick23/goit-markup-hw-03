@@ -38,6 +38,12 @@ ul {
     letter-spacing: 0.28px;
 }
 
+.global-header {
+    margin-bottom: 2268px;
+    border: 1px;
+    margin-top: 80px;
+}
+
 .studio-link {
     color: #2196F3;
     width: 42px;
