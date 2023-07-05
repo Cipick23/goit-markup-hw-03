@@ -87,7 +87,15 @@ ul {
     color: #af1e88;
 }
 
+.contacts > a:hover{
+    color: #af1e88;
+}
+
 .content-section > li > a:focus{
+    color: #af1e88;
+}
+
+.contacts > a:focus{
     color: #af1e88;
 }
 
