@@ -83,13 +83,17 @@ ul {
     flex-shrink: var(--flex-shrink);
 }
 
-.content-section > li > a:hover{
+.content-section > li > span > a:hover{
     color: #af1e88;
 }
 
-.content-section > li > a:focus{
+.content-section > li > span > a:focus{
     color: #af1e88;
 }
+
+
+
+/* main section */
 
 .button-service{
     cursor: pointer;
