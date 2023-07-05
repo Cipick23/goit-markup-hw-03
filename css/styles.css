@@ -30,43 +30,41 @@ ul {
     color: #af1e88;
 }
 
-.global-header a:hover,
-.global-header a:focus{
-    color: #af1e88;
-}
 
-.global-header > h1 {
+
+
+.global-header > nav > h1 > span {
     color: #2196F3;
     font-size: 26px;
     font-style: var(--font-style);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    width: 145px;
-    height: 31px;
     padding: 24px 1240px 25px 215px;
 }
 
-.global-header > nav {
-    width: 1600px;
-    height: 80px;
-    flex-shrink: var(--flex-shrink);
+.global-header > nav > h1 > span,
+.content-section > li > a {
+    display: inline;
 }
 
-.studio-link{
+.studio-link {
     color: #2196F3;
     width: 42px;
     height: 16px;
+    padding: 32px 1105px 32px 453px;
 }
 
-.portofolio {
+.portofolio link {
     width: 58px;
     height: 16px;
+    padding: 32px 997px 32px 545px;
 }
 
 .contacts {
     width: 59px;
     height: 16px;
+    padding: 32px 888px 32px 653px;
 }
 
 .link {
@@ -105,15 +103,11 @@ ul {
     background: #FFF;
     border: 1px;
     content: 1600px 80px;
+    flex-shrink: var(--flex-shrink);
 }
 
 .content-section {
-    margin-top: 32px;
-    margin-right: 1105px;
-    margin-bottom: 32px;
-    margin-left: 453px;
-    margin-inline-start: 215px;
-    margin-inline-end: 215px;
+   
 }
 
 .main-info {
@@ -125,10 +119,6 @@ ul {
 }
 
 .title-image {
-    
-}
-
-.footer-section {
     
 }
 
@@ -235,6 +225,7 @@ ul {
 
 .footer-section > address > a,
 .email-footer  {
+    color: #ffffff99;
     display: flex;
     width: 231px;
     height: 16px;
