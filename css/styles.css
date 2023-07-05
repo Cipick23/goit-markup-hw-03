@@ -19,7 +19,10 @@ ul {
 
 .body-font{
     font-family: 'Roboto';
-    color: #ffffff;
+    /* color: #fff; */
+    /* pentru a vedea marginea */
+    margin: 8px 12px;
+    border: tomato;
 }
 
 .global-header > nav > ul > li > a:hover,
@@ -32,10 +35,6 @@ ul {
     color: #af1e88;
 }
 
-.global-header {
-    background: #FFF;
-}
-
 .global-header > h1 {
     color: #2196F3;
     font-size: 26px;
@@ -45,10 +44,7 @@ ul {
     letter-spacing: 0.78px;
     width: 145px;
     height: 31px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 215px;
-    padding-right: 1240px;
+    padding: 24px 1240px 25px 215px;
 }
 
 .global-header > nav {
@@ -61,13 +57,11 @@ ul {
     color: #2196F3;
     width: 42px;
     height: 16px;
-    padding: 32px, 1105px, 32px, 545px;
 }
 
 .portofolio {
     width: 58px;
     height: 16px;
-    padding: 32px, 997px, 32px, 453px;
 }
 
 .contacts {
@@ -79,7 +73,7 @@ ul {
     color: #212121;
 }
 
-.global-header > a > .email-link {
+.email-link {
     color: #2196F3;
     font-size: 14px;
     font-style: var(--font-style);
@@ -88,19 +82,18 @@ ul {
     letter-spacing: 0.28px;
     width: 135px;
     height: 16px;
-    padding: 32px, 368px, 32px, 1097px;
 }
 
 .phone-section {
     width: 113px;
     height: 16px;
-    padding: 32px, 215px, 32px, 1272px;;
+    padding: 32px, 215px, 32px, 1272px;
+    color: #757575;
 }
 
 .global-header > a,
 .footer-section > address > a,
 .email-footer {
-    color: #757575;
     font-size: 14px;
     font-style: var(--font-style);
     font-weight: var(--font-weight);
@@ -109,7 +102,18 @@ ul {
 }
 
 .global-header {
-    
+    background: #FFF;
+    border: 1px;
+    content: 1600px 80px;
+}
+
+.content-section {
+    margin-top: 32px;
+    margin-right: 1105px;
+    margin-bottom: 32px;
+    margin-left: 453px;
+    margin-inline-start: 215px;
+    margin-inline-end: 215px;
 }
 
 .main-info {
