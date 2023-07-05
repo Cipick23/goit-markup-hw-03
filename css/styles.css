@@ -83,11 +83,11 @@ ul {
     flex-shrink: var(--flex-shrink);
 }
 
-.content-section > li > a > span:hover{
+.content-section > li > a:hover{
     color: #af1e88;
 }
 
-.content-section > li > a > span:focus{
+.content-section > li > a:focus{
     color: #af1e88;
 }
 
