@@ -25,7 +25,7 @@ ul {
     border: #121111;
 }
 
-.global-header > nav > h1 {
+.box > h1 {
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
@@ -81,24 +81,14 @@ ul {
 
 .global-header {
     background: #FFF;
-    border: 1px;
-    content: 1600px 80px;
     flex-shrink: var(--flex-shrink);
 }
 
-.studio-link:hover,
-.portofolio-link:hover,
-.contacts-link:hover,
-.email-link:hover,
-.phone-section:hover{
+.content-section > li > a:hover{
     color: #af1e88;
 }
 
-.studio-link:focus,
-.portofolio-link:focus,
-.contacts-link:focus,
-.email-link:focus,
-.phone-section:focus{
+.content-section > li > a:focus{
     color: #af1e88;
 }
 
@@ -188,6 +178,10 @@ ul {
 
 .footer-section {
     background: #2F303A;
+}
+
+.footer-section {
+    color: #2196F3;
 }
 
 .footer-section > address > p {
