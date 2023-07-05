@@ -19,7 +19,7 @@ ul {
     border: #121111;
 }
 
-/* header */
+/* header section */
 
 .box > h1 {
     color: #2196F3;
@@ -104,6 +104,8 @@ ul {
 
 /* main section */
 
+/*  first section */
+
 .button-service{
     cursor: pointer;
 }
@@ -128,6 +130,8 @@ ul {
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+/*  second section */
 
 .info-section > ul > li > h6 {
     color: #212121;
@@ -158,6 +162,8 @@ ul {
     letter-spacing: 1.08px;
 }
 
+/*  section 3 */
+
 .title-image > h2 {
     color: #212121;
     text-align: center;
@@ -187,6 +193,9 @@ ul {
     line-height: normal;
     letter-spacing: 0.48px;
 }
+
+
+/*  footer section */
 
 .footer-section {
     background: #2F303A;
