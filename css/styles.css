@@ -11,11 +11,11 @@ ul {
     list-style-type: none;
 }
 
-.body-font{
+.body-font {
     font-family: 'Roboto';
     /* color: #fff; */
     /* pentru a vedea marginea */
-    margin: 10px 12px;
+    margin: 12px;
     border: #121111;
     box-sizing: border-box;
 }
@@ -31,6 +31,48 @@ ul {
     line-height: normal;
     letter-spacing: 0.78px;
     /* padding: 24px 1240px 25px 215px; */
+}
+
+.first-box {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    height: 80px;
+    width: 1600px;
+}
+
+.box-contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 300px;
+    /* */
+}
+
+.box {
+    display: flex;
+}
+
+.web-box {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.contacts-box {
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
 }
 
 .content-section {
@@ -60,8 +102,8 @@ ul {
 
 .portofolio-link {
     color: #212121;
-    width: 58px;
-    height: 16px;
+    /* width: 58px;
+    height: 16px; */
     line-height: 16px;
     /* padding: 32px 997px 32px 545px; */
 }
@@ -76,15 +118,15 @@ ul {
 
 .email-link {
     color: #2196F3;
-    width: 135px;
-    height: 16px;
+    /* width: 135px;
+    height: 16px; */
     line-height: 16px;
     /* padding: 32px 368px 32px 1097px; */
 }
 
 .phone-section {
     color: #757575;
-    width: 113px;
+    /*   width: 113px; */
     height: 16px;
     /*  padding: 32px 215px 32px 1272px; */
 }
@@ -122,10 +164,9 @@ ul {
     flex-shrink: 0;
     padding: 200px 452px 280px 452px;
     height: 120px;
-    
 }
 
-.button-service{
+.button-service {
     cursor: pointer;
     box-sizing: border-box;
     width: 200px;
