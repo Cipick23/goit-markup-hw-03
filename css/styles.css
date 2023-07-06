@@ -17,6 +17,7 @@ ul {
     /* pentru a vedea marginea */
     margin: 10px 12px;
     border: #121111;
+    box-sizing: border-box;
 }
 
 /* header section */
@@ -29,6 +30,7 @@ ul {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    /* padding: 24px 1240px 25px 215px; */
 }
 
 .content-section {
@@ -42,35 +44,42 @@ ul {
 
 .global-header {
     border: 1px;
-    margin-top: 80px;
+    width: 1602px;
+    height: 82px;
+    box-sizing: border-box;
+    /* margin-bottom: 2268px; */
 }
 
 .studio-link {
     color: #2196F3;
     width: 42px;
     height: 16px;
-    padding: 32px 1105px 32px 453px;
+    line-height: 16px;
+    /* padding: 32px 1105px 32px 453px; */
 }
 
 .portofolio-link {
     color: #212121;
     width: 58px;
     height: 16px;
-    padding: 32px 997px 32px 545px;
+    line-height: 16px;
+    /* padding: 32px 997px 32px 545px; */
 }
 
 .contacts-link {
     color: #212121;
     width: 59px;
     height: 16px;
-    padding: 32px 888px 32px 653px;
+    line-height: 16px;
+     /* padding: 32px 888px 32px 653px; */
 }
 
 .email-link {
     color: #2196F3;
     width: 135px;
     height: 16px;
-    padding: 32px 368px 32px 1097px;
+    line-height: 16px;
+    /* padding: 32px 368px 32px 1097px; */
 }
 
 .phone-section {
@@ -106,8 +115,36 @@ ul {
 
 /*  first section */
 
+.about-logo {
+    display: flex;
+    width: 696px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 200px 452px 280px 452px;
+    height: 120px;
+    
+}
+
 .button-service{
     cursor: pointer;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    margin: 350px 700px 200px 700px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /*  margin-top: 30px; */
+}
+
+.request-button {
+    width: 161px;
+    height: 30px;
+    /*  10px 19px 10px 20px; */
+    /* padding: 360px 719px 210px 720px;  */
+    line-height: 19px;
+    /*  margin-top: 40px; */
 }
 
 .logo-section > h3 {
@@ -123,15 +160,19 @@ ul {
 
 .logo-section {
     background: #2F303A;
-}
-
-.logo-section > button {
-    border-radius: 4px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-bottom: 1668px;
 }
 
 /*  second section */
+
+.info-section {
+    background: #FFF;
+}
 
 .info-section > ul > li > h6 {
     color: #212121;
@@ -163,6 +204,16 @@ ul {
 }
 
 /*  section 3 */
+
+.title-image {
+    width: 1600px;
+    height: 648px;
+    flex-shrink: 0;
+    background: #F5F4FA;
+    box-sizing: border-box;
+    margin-top: 1449px;
+    margin-bottom: 251px;
+}
 
 .title-image > h2 {
     color: #212121;
@@ -199,6 +250,54 @@ ul {
 
 .footer-section {
     background: #2F303A;
+    width: 1600px;
+    height: 251px;
+    display: flex;
+    box-sizing: border-box;
+    /*  margin: 2097px; */
+}
+
+.footer-section > h2 {
+    line-height: 31px;
+    /*  padding: 60px 1240px 160px 215px; */
+}
+
+.phone-footer{
+    display: flex;
+    line-height: 16px;
+    width: 231px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    /*  padding: 175px 1154px 60px 215px; */
+}
+
+.email-footer {
+    display: flex;
+    line-height: 16px;
+    width: 231px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    /*  padding: 147px 1154px 88px 215px; */
+}
+
+.address-location {
+    display: flex;
+    line-height: 16px;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    /*  padding: 119px 1178px 116px 215px; */
+}
+
+.adress-layout{
+    box-sizing: border-box;
+    width: 231px;
+    height: 72px;
+    flex-shrink: 0;
+    /*  margin: 119px 1154px 60px 215px; */
 }
 
 .footer-section {
