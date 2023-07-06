@@ -86,7 +86,7 @@ ul {
     color: #757575;
     width: 113px;
     height: 16px;
-    padding: 32px 215px 32px 1272px;
+    /*  padding: 32px 215px 32px 1272px; */
 }
 
 .global-header {
@@ -131,7 +131,7 @@ ul {
     width: 200px;
     height: 50px;
     flex-shrink: 0;
-    margin: 350px 700px 200px 700px;
+    /*  margin: 350px 700px 200px 700px; */
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -172,6 +172,16 @@ ul {
 
 .info-section {
     background: #FFF;
+}
+
+.title-heading {
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    flex-shrink: 0;
+    line-height: 16px;
+    /*  padding: 774px 1115px 1558px 215px; */
+    /*  margin-top: 868px; */   
 }
 
 .info-section > ul > li > h6 {
