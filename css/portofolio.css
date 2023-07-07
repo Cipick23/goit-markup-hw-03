@@ -49,54 +49,7 @@
     letter-spacing: 0.28px;
 }
 
-<<<<<<< Updated upstream
 .header-section{
-=======
-/*  main section  */
-
-.main-section {
-    box-sizing: border-box;
-    width: 1170px;
-    /* height: 1360px; */
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;
-}
-
-.box-buttons {
-    display: flex;
-    width: 1170px;
-}
-
-.all-button,
-.web-button,
-.app-button,
-.design-button,
-.marketing-button {
-    height: 38px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
-}
-
-.box-images {
-    display: flex;
-}
-
-.box-images > ul > li {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: space-around;
->>>>>>> Stashed changes
 }
 
 .main-section > section > ul > li > a{
