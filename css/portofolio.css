@@ -12,7 +12,55 @@
     color: #ffffff;
 }
 
+<<<<<<< Updated upstream
 .header-section > h1 {
+=======
+/*  header section  */
+
+/* varianta buna  */
+
+.header-section {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    width: 1600px;
+}
+
+.web-box,
+.box {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.box-contacts {
+    width: 800px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.box > ul {
+    width: 400px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.header-section > div > h1 {
+>>>>>>> Stashed changes
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
@@ -49,7 +97,56 @@
     letter-spacing: 0.28px;
 }
 
+<<<<<<< Updated upstream
 .header-section{
+=======
+/*  main section  */
+
+/* varianta buna  */
+
+.main-section {
+    display: flex;
+    box-sizing: border-box;
+    width: 1170px;
+    height: 1360px;
+}
+
+.box-buttons {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
+}
+
+.box-buttons > ul > li {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.box-buttons,
+.box-images {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-between;
+}
+
+
+.box-images {
+
+}
+
+.box-images > ul > li {
+
+>>>>>>> Stashed changes
 }
 
 .main-section > section > ul > li > a{
