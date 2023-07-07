@@ -36,7 +36,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     border: 1px;
-    width: 1602px;
+    width: 1600px;
     height: 82px;
     width: 100%;
     align-items: center
@@ -353,6 +353,33 @@ ul {
 /*  section 3 */
 
 .title-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-team,
+.title-image >ul {
+    display: flex;
+    align-items: center;
+}
+
+.box-team {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.title-image >ul {
+    box-sizing: border-box;
+    /* display: flex; */
+    width: 1600px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-image {
     width: 1600px;
     height: 648px;
     flex-shrink: 0;
@@ -394,6 +421,12 @@ ul {
 
 
 /*  footer section */
+
+.footer-section {
+    display: flex;
+}
+
+
 
 .footer-section {
     background: #2F303A;
