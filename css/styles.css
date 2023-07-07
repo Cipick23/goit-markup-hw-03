@@ -12,17 +12,17 @@ ul {
 }
 
 .body-font {
-    font-family: 'Roboto';
-    /* color: #fff; */
+    background: #FFF;
     /* pentru a vedea marginea */
     margin: 12px;
     border: #121111;
-    box-sizing: border-box;
+    width: 1600px;
+    height: 2348px;
 }
 
 /* header section */
 
-.box > h1 {
+.web-box > h1 {
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
@@ -30,49 +30,46 @@ ul {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    /* padding: 24px 1240px 25px 215px; */
 }
 
 .first-box {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-    height: 80px;
-    width: 1600px;
+    justify-content: space-evenly;
+    border: 1px;
+    width: 1602px;
+    height: 82px;
+    width: 100%;
+    align-items: center
 }
 
-.box-contacts {
+.box ul {
+    /* display: flex; */
     display: flex;
+    flex-flow: row;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
-    width: 300px;
-    /* */
-}
-
-.box {
-    display: flex;
+    /* align-items: center; */
+    width: 400px;
 }
 
 .web-box {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;
+    width: 400px;
+    justify-content: center;
+    padding-left: 215px;
 }
 
 .contacts-box {
-    width: 290px;
+    width: 800px;
     display: flex;
+    flex-flow: row;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
     align-items: center;
-    align-content: space-around;
+    padding-right: 215px;
+    /*  */
 }
 
 .content-section {
@@ -85,11 +82,14 @@ ul {
 }
 
 .global-header {
+    display: flex;
+    justify-content: space-between;
     border: 1px;
-    width: 1602px;
+    /* width: 1602px; */
     height: 82px;
-    box-sizing: border-box;
-    /* margin-bottom: 2268px; */
+    width: 100%;
+    /* margin-bottom: 2268px;
+    box-sizing: border-box; */
 }
 
 .studio-link {
@@ -103,9 +103,10 @@ ul {
 .portofolio-link {
     color: #212121;
     /* width: 58px;
-    height: 16px; */
+    height: 16px; 
+    padding: 32px 997px 32px 545px; */
     line-height: 16px;
-    /* padding: 32px 997px 32px 545px; */
+    
 }
 
 .contacts-link {
@@ -126,9 +127,9 @@ ul {
 
 .phone-section {
     color: #757575;
-    /*   width: 113px; */
     height: 16px;
-    /*  padding: 32px 215px 32px 1272px; */
+    /* padding-right: 215px;
+    width: 113px; */
 }
 
 .global-header {
