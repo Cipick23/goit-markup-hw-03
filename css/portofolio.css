@@ -12,55 +12,7 @@
     color: #ffffff;
 }
 
-<<<<<<< Updated upstream
 .header-section > h1 {
-=======
-/*  header section  */
-
-/* varianta buna  */
-
-.header-section {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;
-    width: 1600px;
-}
-
-.web-box,
-.box {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-}
-
-.box-contacts {
-    width: 800px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-}
-
-.box > ul {
-    width: 400px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-}
-
-.header-section > div > h1 {
->>>>>>> Stashed changes
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
