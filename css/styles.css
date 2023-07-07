@@ -72,6 +72,10 @@ ul {
     /*  */
 }
 
+.global-header .box ul {
+    display: flex;
+}
+
 .content-section {
     font-size: 14px;
     font-family: var(--font-family);
@@ -158,13 +162,54 @@ ul {
 
 /*  first section */
 
-.about-logo {
+.logo-section  {
+    box-sizing: border-box;
     display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.box-logo {
+    
+/*  display: flex;
     width: 696px;
-    flex-direction: column;
-    flex-shrink: 0;
-    padding: 200px 452px 280px 452px;
     height: 120px;
+    line-height: 52px;
+    align-items: center; */
+    display: flex;
+    /* width: 696px; */
+    height: 120px;
+    line-height: 52px;
+    align-items: center;
+}
+
+.box-button {
+    display: flex;
+    width: 161px;
+    height: 30px;
+}
+
+.about-logo {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-shrink: 0; */
+}
+
+.button-service {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .button-service {
@@ -205,7 +250,6 @@ ul {
     width: 1600px;
     height: 600px;
     flex-shrink: 0;
-    box-sizing: border-box;
     margin-top: 80px;
     margin-bottom: 1668px;
 }
