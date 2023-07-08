@@ -305,15 +305,6 @@ ul {
 /*  section 3 */
 
 .title-image {
-<<<<<<< Updated upstream
-    width: 1600px;
-    height: 648px;
-    flex-shrink: 0;
-    background: #F5F4FA;
-    box-sizing: border-box;
-    margin-top: 1449px;
-    margin-bottom: 251px;
-=======
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -352,7 +343,6 @@ ul {
 	align-content: space-around;
     width: 270px;
     height: 368px;
->>>>>>> Stashed changes
 }
 
 .title-image > h2 {
