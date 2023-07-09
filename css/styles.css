@@ -460,7 +460,6 @@ ul {
     width: 231px;
     height: 16px;
     flex-shrink: 0;
-    /*  padding: 175px 1154px 60px 215px; */
 }
 
 .box-footer > h2 {
@@ -480,11 +479,6 @@ ul {
 .address-location {
     flex-shrink: 0;
     color: #FFFFFF;
-}
-
-.address-layout {
-    
-    /*  margin: 119px 1154px 60px 215px; */
 }
 
 .footer-section > address > a:hover,

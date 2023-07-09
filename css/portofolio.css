@@ -263,14 +263,13 @@
     flex-shrink: 0;
     padding: 0px 0px 60px 215px;
     flex-shrink: 0;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .address-location,
 .studio-link,
 .phone-section {
     display: flex;
-    justify-content: space-between;
     line-height: normal;
 }
 
@@ -283,7 +282,7 @@
     letter-spacing: 0.78px;
 }
 
-.footer-section > address > p {
+.address-location {
     color: #FFF;
     font-size: 14px;
     font-style: var(--font-style);
