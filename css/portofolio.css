@@ -12,7 +12,54 @@
     color: #ffffff;
 }
 
+<<<<<<< Updated upstream
 .header-section > h1 {
+=======
+/*  header section  */
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: nowrap; */
+    /* justify-content: flex-start; */
+    align-items: center;
+    /* align-content: stretch; */
+    width: 1600px;
+}
+
+.web-box,
+.box {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.box-contacts {
+    width: 800px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.box > ul {
+    width: 400px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.header-section > div > h1 {
+>>>>>>> Stashed changes
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
@@ -59,8 +106,20 @@
 .main-section {
     display: flex;
     box-sizing: border-box;
+<<<<<<< Updated upstream
     width: 1170px;
     height: 1360px;
+=======
+    justify-content: space-evenly; 
+    /* width: 1170px; */
+    /* height: 1360px; */
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /* */
+    /* align-items: stretch; */
+    /* align-content: space-evenly; */
+    margin: 174px 215px 345px 215px;
+>>>>>>> Stashed changes
 }
 
 .box-buttons {
@@ -174,7 +233,11 @@
     letter-spacing: 0.48px;
     }
 
+    /* footer section */
+
 .footer-section{
+    display: flex;
+    box-sizing: border-box;
     background: #2F303A;
 }
 
