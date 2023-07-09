@@ -230,6 +230,12 @@
     background: #2F303A;
 }
 
+.box-title {
+    display: flex;
+    align-items: self-start;
+}
+
+
 .footer-section > h2 {
     color: #2196F3;
     font-size: 26px;
