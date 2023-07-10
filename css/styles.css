@@ -220,6 +220,7 @@ ul {
     display: flex;
     height: 101px;
     padding: 0px 215px 0px 215px;
+    margin-top: 94px;
 }
 
 .container-one {
@@ -335,11 +336,11 @@ ul {
     flex-wrap: nowrap;
 }
 
-.container-images > div {
+.container-images > h2 {
     display: flex;
     width: 198px;
     height: 42px;
-    margin: 0px 0px 0px 0px;
+    margin: 94px 701px 50px 701px;
 }
 
 .container-images > div > h2 {
