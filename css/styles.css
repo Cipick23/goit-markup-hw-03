@@ -169,20 +169,10 @@ ul {
     width: 1600px;
     height: 600px;
     flex-shrink: 0;
-    
-}
-
-.container-logo {
-    display: flex;
-    line-height: 52px;
-}
-
-.container-button {
-    display: flex;
-    margin-top: 30px;
 }
 
 .about-logo {
+    line-height: 52px;
     color: #FFF;
     display: flex;
     flex-direction: column;
@@ -190,7 +180,7 @@ ul {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 200px 452px 30px 452px;
+    margin: 200px 452px 30px 452px;
     text-align: center;
     font-size: 44px;
     font-style: 1;
@@ -201,6 +191,7 @@ ul {
 }
 
 .button-service {
+    margin: 30px 700px 200px 700px;
     padding: 10px 19px 10px 20px;
     display: flex;
     flex-direction: column;
@@ -220,8 +211,6 @@ ul {
 .request-button {
     width: 161px;
     height: 30px;
-    /*  10px 19px 10px 20px; */
-    /* padding: 360px 719px 210px 720px;  */
     line-height: 19px;
 }
     
