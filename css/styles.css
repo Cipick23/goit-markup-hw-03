@@ -37,7 +37,7 @@ ul {
     letter-spacing: 0.78px;
 }
 
-.container {
+.first-container {
     display: flex;
     justify-content: space-evenly;
     border: 1px;
@@ -89,11 +89,11 @@ ul {
     display: flex;
     justify-content: space-between;
     border: 1px;
-    width: 1600px;
-    height: 80px;
-    /* flex-shrink: 0; */
-    background: #FFF;
-    flex-shrink: var(--flex-shrink);
+    /* width: 1602px; */
+    height: 82px;
+    width: 100%;
+    /* margin-bottom: 2268px;
+    container-sizing: border-container; */
 }
 
 .studio-link {
@@ -136,6 +136,13 @@ ul {
     color: #757575;
     height: 16px;
     margin: 0px 215px 0px 0px;
+    /* padding-right: 215px;
+    width: 113px; */
+}
+
+.global-header {
+    background: #FFF;
+    flex-shrink: var(--flex-shrink);
 }
 
 .content-section > li > a:hover{
