@@ -343,16 +343,13 @@ ul {
     margin: 94px 701px 50px 701px;
 }
 
-.container-images > div > h2 {
-    display: flex;
-}
-
 .container-images > ul {
+    margin: 94px 215px 94px 215px;
     width: 1170px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     align-content: stretch;
 }
@@ -377,19 +374,8 @@ ul {
     align-items: center;
 }
 
-.container-team,
 .title-image > ul {
     display: flex;
-    align-items: center;
-}
-
-.container-team {
-    display: flex;
-}
-
-.title-image > ul {
-    display: flex;
-    width: 1;
     align-items: center;
 }
 
@@ -473,10 +459,6 @@ ul {
     flex-shrink: 0;
 }
 
-.container-footer {
-    display: flex;
-}
-
 .phone-footer {
     color: #ffffff99;
     display: flex;
@@ -486,8 +468,9 @@ ul {
     flex-shrink: 0;
 }
 
-.container-footer > h2 {
+.footer-section > h2 {
     line-height: 31px;
+    margin: 30px 1240px 28px 215px;
 }
 
 .email-footer {
