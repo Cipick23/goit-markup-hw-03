@@ -55,7 +55,7 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     /* align-items: center; */
-    width: 400px;
+    /* width: 400px; */
 }
 
 .web-container {

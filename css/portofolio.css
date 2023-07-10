@@ -51,8 +51,8 @@
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* align-items: center; */
-    width: 400px;
+    /* align-items: center;
+    width: 400px; */
 }
 
 .web-container {
