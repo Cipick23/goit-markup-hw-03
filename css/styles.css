@@ -19,7 +19,7 @@ ul {
 
 .container {
     background: #FFF;
-    /* container-sizing: border-container; */
+    /* box-sizing: border-box; */
     border: #121111;
     width: 1600px;
     height: 2348px;
@@ -37,7 +37,11 @@ ul {
     letter-spacing: 0.78px;
 }
 
+<<<<<<< Updated upstream
 .first-container {
+=======
+.box {
+>>>>>>> Stashed changes
     display: flex;
     justify-content: space-evenly;
     border: 1px;
@@ -72,7 +76,7 @@ ul {
     align-items: center;
 }
 
-.global-header .container ul {
+.global-header .box ul {
     display: flex;
 }
 

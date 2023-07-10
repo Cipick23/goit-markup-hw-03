@@ -13,7 +13,11 @@
     --flex-shrink: 0;
 }
 
+<<<<<<< Updated upstream
 .container {
+=======
+.body-font{
+>>>>>>> Stashed changes
     box-sizing: border-box;
     width: 1600px;
     height: 1879px;
@@ -90,7 +94,7 @@
     height: 82px;
     width: 100%;
     /* margin-bottom: 2268px;
-    container-sizing: border-container; */
+    box-sizing: border-box; */
 }
 
 .studio-link {
