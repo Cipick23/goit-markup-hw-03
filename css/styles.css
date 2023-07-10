@@ -369,25 +369,26 @@ ul {
     letter-spacing: 0.42px;
 }
 
-.box-images > div > h2,
-.box-images > ul {
+.box-images {
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.box-images > div {
+    display: flex;
+    width: 198px;
+    height: 42px;
+    margin: 0px 50px 0px 701px;
 }
 
 .box-images > div > h2 {
     display: flex;
-    height: 42px;
-    padding-top: 696px;
-    align-items: center;
 }
 
 .box-images > ul {
     width: 1170px;
-    padding-left: 215px;
+    margin: 0px 30px 0px 215px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
