@@ -266,20 +266,41 @@ ul {
 .box-objective {
     display: flex;
     width: 1170px;
-    height: 101px;
-    flex-shrink: 0;
-
 }
 
 .box-one {
     display: flex;
 }
 
+.box-paragraph-one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 270px;
+}
+
+.box-objective > ul > li > section {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
 .box-two {
     display: flex;
 }
 
+.box-paragraph-two {
+    display: flex;
+}
+
 .box-three {
+    display: flex;
+}
+
+.box-paragraph-three {
     display: flex;
 }
 
