@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: Border-box;
+}
+
 :root {
     --test-font-family: 'Raleway';
     --heading-font-family: 'Raleway';
@@ -58,6 +64,7 @@ ul {
     width: 400px;
     justify-content: center;
     padding-left: 215px;
+    /* margin: 0px 93px 0px 0px; */
 }
 
 .contacts-box {
