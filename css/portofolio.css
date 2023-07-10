@@ -35,7 +35,6 @@
 
 .first-container {
     display: flex;
-    justify-content: space-evenly;
     border: 1px;
     width: 1600px;
     height: 82px;
@@ -43,29 +42,33 @@
     align-items: center
 }
 
+.box {
+    padding: 32px 0px 32px 0px;
+}
+
 .box ul {
-    /* display: flex; */
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* align-items: center;
-    width: 400px; */
+    /* align-items: center; */
+    /* width: 400px; */
 }
 
 .web-container {
     display: flex;
     justify-content: center;
+    padding: 24px 93px 25px 215px;
 }
 
 .contacts-container {
     display: flex;
     flex-flow: row;
-    /* justify-content: space-around; */
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 32px 0px 32px 385px;
 }
 
 .global-header .container ul {
@@ -87,9 +90,6 @@
     border: 1px;
     /* width: 1602px; */
     height: 82px;
-    width: 100%;
-    /* margin-bottom: 2268px;
-    container-sizing: border-container; */
 }
 
 .studio-link {
@@ -115,7 +115,6 @@
     width: 59px;
     height: 16px;
     line-height: 16px;
-    margin: 0px 385px 0px 0px;
      /* padding: 32px 888px 32px 653px; */
 }
 
@@ -131,9 +130,6 @@
 .phone-section {
     color: #757575;
     height: 16px;
-    margin: 0px 215px 0px 0px;
-    /* padding-right: 215px;
-    width: 113px; */
 }
 
 .global-header {
