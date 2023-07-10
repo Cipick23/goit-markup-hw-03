@@ -278,7 +278,7 @@ ul {
 .container-objective > ul {
     display: flex;
     flex-direction: row;
-    /* height: 101px; */
+    height: 101px;
     justify-content: space-between;
 }
 
@@ -412,13 +412,12 @@ ul {
 .container-team {
     display: flex;
     box-sizing: border-box;
-    /* margin: 94px 717px 0px 0px; */
 }
 
 .title-image > ul {
     box-sizing: border-box;
     display: flex;
-    width: 1600px;
+    width: 1;
     align-items: center;
 }
 
@@ -444,8 +443,7 @@ ul {
     flex-shrink: 0;
     background: #F5F4FA;
     box-sizing: border-box;
-    /*  margin-top: 1449px;
-    margin-bottom: 251px; */
+    margin-top: 94px;
 }
 
 .title-image > h2 {
