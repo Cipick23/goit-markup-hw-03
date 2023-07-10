@@ -23,88 +23,146 @@
 
 /*  header section  */
 
-.header-section {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;
-    width: 1600px;
-}
 
-.web-box,
-.box {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-}
-
-.box-contacts {
-    width: 800px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-}
-
-.box > ul {
-    width: 400px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-}
-
-.header-section > div > h1 {
+.web-box > h1 {
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
-    font-style: var(--font-style);
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
 }
 
-.header-section > nav > ul > li > a:hover,
-.header-section > nav > ul > li > a:focus{
-    color: #af1e88;
+.first-box {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px;
+    width: 1600px;
+    height: 82px;
+    width: 100%;
+    align-items: center
 }
 
-.header-section a:hover,
-.header-section a:focus{
-    color: #af1e88;
+.box ul {
+    /* display: flex; */
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-items: center; */
+    width: 400px;
 }
 
-.black-section{
-    color: #212121;
+.web-box {
+    display: flex;
+    justify-content: center;
 }
 
-.portofolio-link{
-    color: #2196F3;
+.contacts-box {
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.contacts{
-    color: #757575;
+.global-header .box ul {
+    display: flex;
+}
+
+.content-section {
     font-size: 14px;
-    font-style: var(--font-style);
-    font-weight: var(--font-weight);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+}
+
+.global-header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    /* width: 1602px; */
+    height: 82px;
+    width: 100%;
+    /* margin-bottom: 2268px;
+    box-sizing: border-box; */
+}
+
+.studio-link {
+    color: #2196F3;
+    width: 42px;
+    height: 16px;
+    line-height: 16px;
+    margin: 0px 50px 0px 0px;
+    /* padding: 32px 1105px 32px 453px; */
+}
+
+.portofolio-link {
+    color: #212121;
+    /* width: 58px;
+    height: 16px; 
+    padding: 32px 997px 32px 545px; */
+    line-height: 16px;
+    margin: 0px 50px 0px 0px;
+}
+
+.contacts-link {
+    color: #212121;
+    width: 59px;
+    height: 16px;
+    line-height: 16px;
+    margin: 0px 385px 0px 0px;
+     /* padding: 32px 888px 32px 653px; */
+}
+
+.email-link {
+    color: #2196F3;
+    /* width: 135px;
+    height: 16px; */
+    line-height: 16px;
+    margin: 0px 40px 0px 0px;
+    /* padding: 32px 368px 32px 1097px; */
+}
+
+.phone-section {
+    color: #757575;
+    height: 16px;
+    margin: 0px 215px 0px 0px;
+    /* padding-right: 215px;
+    width: 113px; */
+}
+
+.global-header {
+    background: #FFF;
+    flex-shrink: var(--flex-shrink);
+}
+
+.content-section > li > a:hover{
+    color: #af1e88;
+}
+
+.contacts > a:hover{
+    color: #af1e88;
+}
+
+.content-section > li > a:focus{
+    color: #af1e88;
+}
+
+.contacts > a:focus{
+    color: #af1e88;
 }
 
 /*  main section  */
 
 .main-section {
     display: flex;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* width: 1170px; */
     /* height: 1360px; */
     flex-direction: column;
@@ -112,8 +170,8 @@
     /* justify-content: space-evenly; */
     /* align-items: stretch; */
     /* align-content: space-evenly; */
-    margin: 174px 215px 345px 215px;
-    height: 80px;
+    /* margin: 174px 215px 345px 215px; */
+    /* height: 80px; */
 }
 
 .box-buttons {
@@ -247,7 +305,7 @@
     display: flex;
     box-sizing: border-box;
     background: #2F303A;
-    margin-top: 1628px;
+    /* margin-top: 1628px; */
     width: 1600px;
     height: 251px;
     flex-direction: column;

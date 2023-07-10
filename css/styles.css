@@ -19,7 +19,7 @@ ul {
 
 .body-font {
     background: #FFF;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: #121111;
     width: 1600px;
     height: 2348px;
@@ -89,11 +89,11 @@ ul {
     display: flex;
     justify-content: space-between;
     border: 1px;
-    /* width: 1602px; */
-    height: 82px;
-    width: 100%;
-    /* margin-bottom: 2268px;
-    box-sizing: border-box; */
+    width: 1600px;
+    height: 80px;
+    /* flex-shrink: 0; */
+    background: #FFF;
+    flex-shrink: var(--flex-shrink);
 }
 
 .studio-link {
@@ -138,11 +138,6 @@ ul {
     margin: 0px 215px 0px 0px;
     /* padding-right: 215px;
     width: 113px; */
-}
-
-.global-header {
-    background: #FFF;
-    flex-shrink: var(--flex-shrink);
 }
 
 .content-section > li > a:hover{
