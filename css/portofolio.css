@@ -163,16 +163,19 @@
 .main-section {
     display: flex;
     flex-direction: column;
-    margin:94px 0px 94px 0px;
+    width: 1170px;
+    height: 1360px;
+    margin: 94px 215px 94px 215px;
 }
 
 .box-buttons {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    margin: 0px 0px 50px 0px;
 }
 
 
@@ -205,18 +208,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 1170px;
-    justify-content: space-evenly;
+    height: 1272px;
+    justify-content: space-around;
 }
 
 .main-section > section > ul > li > a{
     cursor: pointer;
 }
 
-.botton-white{
-    
-}
-
 .all-button{
+    margin: 0px 8px 0px 327px;
     text-align: center;
     font-size: 16px;
     font-style: var(--font-style);
@@ -232,7 +233,8 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.web-button{
+.web-button {
+    margin: 0px 8px 0px 8px;
     width: 120px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
@@ -245,19 +247,22 @@
     letter-spacing: 0.48px;
 }
 
-.app-button{
+.app-button {
+    margin: 0px 8px 0px 8px;
     width: 83px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
 
-.design-button{
+.design-button {
+    margin: 0px 8px 0px 8px;
     width: 96px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
 
-.marketing-button{
+.marketing-button {
+    margin: 0px 327px 0px 8px;
     width: 121px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
