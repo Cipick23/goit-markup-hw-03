@@ -245,7 +245,7 @@ ul {
 
 .container-objective {
     display: flex;
-    padding: 0px 215px 0px 215px;
+    padding: 94px 215px 0px 215px;
 }
 
 .container-one {
@@ -359,6 +359,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+
 }
 
 .container-images > div {
