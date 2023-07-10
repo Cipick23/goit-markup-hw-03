@@ -164,7 +164,7 @@ ul {
 /*  first section */
 
 .logo-section {
-    container-sizing: border-container;
+    box-sizing: border-box;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -212,13 +212,13 @@ ul {
 
 .button-service {
     cursor: pointer;
-    container-sizing: border-container;
+    box-sizing: border-box;
     width: 200px;
     height: 50px;
     flex-shrink: 0;
     border-radius: 4px;
     background: #2196F3;
-    container-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .request-button {
@@ -411,12 +411,12 @@ ul {
 
 .container-team {
     display: flex;
-    container-sizing: border-container;
+    box-sizing: border-box;
     /* margin: 94px 717px 0px 0px; */
 }
 
 .title-image > ul {
-    container-sizing: border-container;
+    box-sizing: border-box;
     display: flex;
     width: 1600px;
     align-items: center;
@@ -443,7 +443,7 @@ ul {
     height: 648px;
     flex-shrink: 0;
     background: #F5F4FA;
-    container-sizing: border-container;
+    box-sizing: border-box;
     /*  margin-top: 1449px;
     margin-bottom: 251px; */
 }
@@ -484,7 +484,7 @@ ul {
     color: #2196F3;
     display: flex;
     align-items: start;
-    container-sizing: border-container;
+    box-sizing: border-box;
     width: 1600px;
     height: 251px;
     flex-shrink: 0;
@@ -500,7 +500,7 @@ ul {
 	justify-content: space-evenly;
 	align-items: baseline;
 	align-content: space-between;
-    container-sizing: border-container;
+    box-sizing: border-box;
     margin-left: 215px;
     width: 231px;
     height: 72px;

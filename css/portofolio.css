@@ -14,7 +14,7 @@
 }
 
 .body-font{
-    container-sizing: border-container;
+    box-sizing: border-box;
     width: 1600px;
     height: 1879px;
     font-family: var(--font-family);
@@ -230,7 +230,7 @@
     flex-shrink: var(--flex-shrink);
     border-radius: 4px;
     background: #2196F3;
-    container-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .web-button {
@@ -301,7 +301,7 @@
         color: #2196F3;
         display: flex;
         align-items: start;
-        container-sizing: border-container;
+        box-sizing: border-box;
         width: 1600px;
         height: 251px;
         flex-shrink: 0;
@@ -317,7 +317,7 @@
         justify-content: space-evenly;
         align-items: baseline;
         align-content: space-between;
-        container-sizing: border-container;
+        box-sizing: border-box;
         margin-left: 215px;
         width: 231px;
         height: 72px;
