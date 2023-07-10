@@ -19,7 +19,6 @@ ul {
 
 .body-font {
     background: #FFF;
-    /* pentru a vedea marginea */
     box-sizing: border-box;
     border: #121111;
     width: 1600px;
@@ -62,8 +61,6 @@ ul {
 .web-box {
     display: flex;
     justify-content: center;
-
-    /* margin: 0px 93px 0px 0px; */
 }
 
 .contacts-box {
@@ -225,11 +222,9 @@ ul {
     width: 200px;
     height: 50px;
     flex-shrink: 0;
-    /*  margin: 350px 700px 200px 700px; */
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    /*  margin-top: 30px; */
 }
 
 .request-button {
@@ -258,7 +253,6 @@ ul {
     height: 600px;
     flex-shrink: 0;
     margin-top: 80px;
-    /*  margin-bottom: 1668px; */
 }
 
 /*  second section */
@@ -270,6 +264,7 @@ ul {
 
 .box-one {
     display: flex;
+    margin: 94px 0px 0px 0px;
 }
 
 .box-paragraph-one {
@@ -277,6 +272,8 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     width: 270px;
+    height: 75px;
+    margin: 10px 30px 0px 0px;
 }
 
 .box-objective > ul > li > section {
@@ -288,29 +285,61 @@ ul {
 	align-content: stretch;
 }
 
+.box-objective > ul > li {
+    display: flex;
+}
+
+.box-objective > ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px 0px 215px;
+    justify-content: space-between;
+}
+
 .box-two {
     display: flex;
+    margin: 94px 0px 0px 0px;
 }
 
 .box-paragraph-two {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 270px;
+    margin: 10px 30px 0px 0px;
+    height: 75px;
 }
 
 .box-three {
     display: flex;
+    margin: 94px 0px 0px 0px;
 }
 
 .box-paragraph-three {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 270px;
+    margin: 10px 30px 0px 0px;
+    height: 75px;
 }
 
 .box-four {
     display: flex;
+    margin: 94px 0px 0px 0px;
+}
+
+.box-paragraph-four {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 270px;
+    margin: 10px 30px 0px 0px;
+    height: 75px;
 }
 
 .info-section {
     background: #FFF;
-
+    width: 1600px;
 }
 
 .title-heading {
@@ -318,9 +347,7 @@ ul {
     width: 270px;
     flex-direction: column;
     flex-shrink: 0;
-    line-height: 16px;
-    /*  padding: 774px 1115px 1558px 215px; */
-    /*  margin-top: 868px; */   
+    line-height: 16px;   
 }
 
 .info-section > ul > li > h6 {
