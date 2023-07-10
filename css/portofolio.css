@@ -44,7 +44,7 @@
     align-items: center
 }
 
-.container ul {
+.box ul {
     /* display: flex; */
     display: flex;
     flex-flow: row;
