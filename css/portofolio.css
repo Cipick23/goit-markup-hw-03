@@ -170,19 +170,24 @@
 
 .box-buttons {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: space-around;
 }
 
 .box-buttons > ul {
     display: flex;
     flex-direction: row;
-    width: 1170px;
+    align-content: center;
+    width: 1200px;
     justify-content: space-between;
+    margin: 94px 0px 0px 215px;
+
 }
+
+
 
 .box-images {
     display: flex;
@@ -205,8 +210,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 1170px;
-    height: 1879px;
     justify-content: space-evenly;
+    height: 1360px;
+    margin: 94px 0px 0px 0px;
 }
 
 .main-section > section > ul > li > a{
@@ -217,6 +223,7 @@
 }
 
 .all-button{
+    padding: 0px 8px 0px 0px;
     text-align: center;
     font-size: 16px;
     font-style: var(--font-style);
