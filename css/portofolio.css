@@ -169,6 +169,45 @@
 	justify-content: space-around;
 	align-items: center;
 	align-content: space-evenly;
+<<<<<<< Updated upstream
+=======
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 1360px;
+    margin: 94px 215px 94px 215px;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    margin: 0px 0px 50px 0px;
+}
+
+
+.container-buttons > ul {
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    justify-content: space-between;
+}
+
+.container-images {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-evenly;
+
+>>>>>>> Stashed changes
 }
 
 .container-images > ul > li {
