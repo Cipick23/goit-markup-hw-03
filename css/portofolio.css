@@ -154,24 +154,27 @@
 }
 /*  main section  */
 
-/*  main section  */
-
 .main-section {
     display: flex;
+    /* box-sizing: border-box; */
+    /* width: 1170px; */
+    /* height: 1360px; */
     flex-direction: column;
-    width: 1170px;
-    height: 1360px;
-    margin: 94px 215px 94px 215px;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-content: space-evenly; */
+    /* margin: 174px 215px 345px 215px; */
+    /* height: 80px; */
 }
 
 .box-buttons {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: space-around;
-    margin: 0px 0px 50px 0px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
 }
 
 
@@ -186,7 +189,7 @@
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	align-content: space-evenly;
 
@@ -204,16 +207,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 1170px;
-    height: 1272px;
-    justify-content: space-around;
+    height: 1879px;
+    justify-content: space-evenly;
 }
 
 .main-section > section > ul > li > a{
     cursor: pointer;
 }
 
+.botton-white{
+    
+}
+
 .all-button{
-    margin: 0px 8px 0px 327px;
     text-align: center;
     font-size: 16px;
     font-style: var(--font-style);
@@ -229,8 +235,7 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.web-button {
-    margin: 0px 8px 0px 8px;
+.web-button{
     width: 120px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
@@ -243,22 +248,19 @@
     letter-spacing: 0.48px;
 }
 
-.app-button {
-    margin: 0px 8px 0px 8px;
+.app-button{
     width: 83px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
 
-.design-button {
-    margin: 0px 8px 0px 8px;
+.design-button{
     width: 96px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
 
-.marketing-button {
-    margin: 0px 327px 0px 8px;
+.marketing-button{
     width: 121px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
@@ -281,15 +283,6 @@
     line-height: 1.8;
     letter-spacing: 0.48px;
     }
-
-.footer-section{
-    background: #2F303A;
-}
-
-.box-title {
-    display: flex;
-    align-items: self-start;
-}
 
 /* footer section */
 
