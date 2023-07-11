@@ -156,16 +156,7 @@
 
 .main-section {
     display: flex;
-    /* box-sizing: border-box; */
-    /* width: 1170px; */
-    /* height: 1360px; */
     flex-direction: column;
-    /* flex-wrap: nowrap; */
-    /* justify-content: space-evenly; */
-    /* align-items: stretch; */
-    /* align-content: space-evenly; */
-    /* margin: 174px 215px 345px 215px; */
-    /* height: 80px; */
 }
 
 .box-buttons {
@@ -186,8 +177,6 @@
     margin: 94px 542px 0px 542px;
     height: 38px;
 }
-
-
 
 .box-images {
     display: flex;
