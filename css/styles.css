@@ -379,6 +379,8 @@ ul {
     align-items: center;
 }
 
+/* header section */
+
 .image-one {
     margin: 0px 30px 0px 0px;
 }
@@ -411,6 +413,8 @@ ul {
     line-height: normal;
     letter-spacing: 1.08px;
 }
+
+
 
 .title-image > ul > li > span{
     color: #212121;
