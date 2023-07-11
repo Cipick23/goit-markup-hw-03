@@ -290,6 +290,8 @@
     letter-spacing: 0.48px;
     }
 
+    /* footer section */
+
 .footer-section{
     background: #2F303A;
 }
@@ -299,7 +301,7 @@
     align-items: self-start;
 }
 
-    /* footer section */
+    
 
 .footer-section{
     display: flex;
