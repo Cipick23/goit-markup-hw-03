@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link 
-    rel="stylesheet" 
-    href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com">
-    <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin>
-    <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-    <link 
-    rel="stylesheet" 
-    href="./css/portofolio.css">
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/portofolio.css">
 </head>
-<body class="body-font">
-    <header class="header-section">
-        <h1>WebStudio</h1>
-        <nav>
-            <ul>
-                <li><a 
-                    class="black-section" 
-                    href="Studiu.html">Studio</a></li>
-                <li><a 
-                    class="portofolio-link" 
-                    href="portfolio.html">Portfolio</a></li>
-                <li><a 
-                    class="black-section" 
-                    href="Contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
-        <a 
-        class="contacts" 
-        href="email.html">info@devstudio.com</a>
-        <a 
-        class="contacts" 
-        href="tel:+12127724150">+1212-772-4150</a>
+
+<body class="container">
+    
+
+    <!-- header section -->
+    <header class="global-header">
+        <div class="first-container">
+            <div class="web-container">
+                <h1>WebStudio</h1>
+            </div>
+            <div class="container-contacts"></div>
+
+            <nav class="box">
+                <ul class="content-section">
+                    <li>
+                        <a class="studio-link" href="studiu.html">Studio</a>
+                    </li>
+                    <li>
+                        <a class="portofolio-link" href="portfolio.html">Portofolio</a>
+                    </li>
+                    <li>
+                        <a class="contacts-link" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="contacts contacts-container">
+                <a class="email-link" href="email.html">info@devstudio.com</a>
+                <a class="phone-section" href="tel:+12127724150">+1 212-772-4150</a>
+            </div>
+        </div>
     </header>
 
     <main class="main-section">
-        <section>
+        <section class="box-buttons">
             <ul>
                 <li>
                     <a
@@ -98,7 +98,7 @@
             
         </section>
         
-        <section>
+        <section class="box-images">
             <ul>
                 <li>
                     <img
@@ -184,14 +184,16 @@
             </ul>
         </section>
     </main>
+
+    <!-- footer section -->
     <footer class="footer-section">
         <h2>WebStudio</h2>
-        <address>
+        <address class="address-layout">
             <p class="address-location">695 Park Ave, NY 10065, USA</p>
 
-            <a class="studio-link" href="email.html">info@devstudio.com</a>
-    
-            <a class="phone-section" href="tel:+12127724150">+1212-772-4150</a>
+            <a class="email-footer" href="email.html">info@devstudio.com</a>
+
+            <a class="phone-footer" href="tel:+12127724150">+1 212-772-4150</a>
         </address>
     </footer>
 </body>
